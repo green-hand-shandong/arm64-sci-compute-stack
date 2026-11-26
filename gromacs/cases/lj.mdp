@@ -1,0 +1,11 @@
+integrator      = steep
+nsteps          = 200
+emtol           = 100.0
+cutoff-scheme   = Verlet
+nstlist         = 10
+rlist           = 1.0
+coulombtype     = cut-off
+rcoulomb        = 1.0
+rvdw            = 1.0
+constraints     = none
+pbc             = xyz

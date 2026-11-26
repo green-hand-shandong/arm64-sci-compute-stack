@@ -1,0 +1,15 @@
+#include "oplsaa.ff/forcefield.itp"
+
+[ moleculetype ]
+; name  nrexcl
+LJ      1
+
+[ atoms ]
+; nr type resnr residue atom cgnr charge mass
+1  opls_035 1 LJ  LJ  1  0  0.1
+
+[ system ]
+LJ particles
+[ molecules ]
+; name  number
+LJ      125
